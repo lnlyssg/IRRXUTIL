@@ -29,3 +29,4 @@ SETROPTS - Lists all SETROPTS info
 TSTGRP - List a group  
 TSTRES - List a resource  
 TSTUSR - List a user  
+USRSEGS - List the available user segments (including CSDATA)
