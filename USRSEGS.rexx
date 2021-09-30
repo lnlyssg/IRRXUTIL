@@ -1,7 +1,7 @@
 /* REXX */                                                        
 /* Extract user segments */                                       
 theVar  = "irrx"                                                  
-theProfile = 'EAJYT10'                                            
+theProfile = 'IBMUSER'                                            
 theClass = 'USER'                                                 
 irrRC = IRRXUTIL('EXTRACT',theClass,theProfile,theVar,"",'FALSE') 
 /*say irrRC*/                                                     
