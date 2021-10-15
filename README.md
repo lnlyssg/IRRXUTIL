@@ -17,6 +17,7 @@ You will need access to one or more IRR.RADMIN.** profiles in the FACILITY class
 ALLUSR - Lists all possible info that can be extracted for a user  
 AUDIT - Simple audit-style report of group connections  
 AUDITCLS - Lists RACF classes that are active and audited  
+DATASET - List a Dataset profile - *z/OS 2.4 and above*  
 EXTRACTN - Sample for continual extracts  
 IBMUSER - Sample for listing an ID  
 IDS - Feed in a list of IDs and get info  
