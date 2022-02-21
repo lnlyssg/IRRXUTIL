@@ -1,11 +1,11 @@
 # IRRXUTIL samples
 ### What's IRRXUTIL?
 An awesome Rexx interface to RACF. No more issuing LU/RLIST commands and trapping output like some sort of caveman.  
-[Official IBM blurb with samples](https://www-03.ibm.com/systems/z/os/zos/features/racf/downloads/irrxutil.html)  
+[Official IBM manual pages](https://www.ibm.com/docs/en/zos/2.4.0?topic=interfaces-irrxutil-rexx-interface-r-admin-extract)  
 [IRRXUTIL overview presentation by Mark Nelson](https://share.confex.com/share/116/webprogram/Handout/Session8255/share_2011_02_irrxutil.pdf)  
 
 ### Why did you create this repo?  
-Chatting with a mainframe security buddy of mine a couple of weeks ago I realised that not many people know about IRRXUTIL and even fewer actually use it in anger (mostly thanks to useful tools like zSecure and Vanguard) so I decided to collect and collate some samples.   
+Chatting with a mainframe security buddy of mine some time ago I realised that not many people know about IRRXUTIL and even fewer actually use it in anger (mostly thanks to useful tools like zSecure and Vanguard) so I decided to collect and collate some samples.   
 
 ### Why should I use it?
 Because OUTTRAPping stuff is tedious and annoying.  
@@ -17,6 +17,7 @@ You will need access to one or more IRR.RADMIN.** profiles in the FACILITY class
 ALLUSR - Lists all possible info that can be extracted for a user  
 AUDIT - Simple audit-style report of group connections  
 AUDITCLS - Lists RACF classes that are active and audited  
+CDT - Displays info from dynamic CDT  
 DATASET - List a Dataset profile - *z/OS 2.4 and above*  
 EXTRACTN - Sample for continual extracts  
 IBMUSER - Sample for listing an ID  
@@ -30,4 +31,4 @@ SETROPTS - Lists all SETROPTS info
 TSTGRP - List a group  
 TSTRES - List a resource  
 TSTUSR - List a user  
-USRSEGS - List the available user segments (including CSDATA)
+USRSEGS - List the available user segments (including CSDATA)  
